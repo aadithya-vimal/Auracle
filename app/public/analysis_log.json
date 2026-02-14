@@ -1,0 +1,477 @@
+{
+  "score": 73,
+  "confidence": 95,
+  "velocity": 9,
+  "timestamp": "2026-02-14T13:22:34.510621",
+  "reasoning": [
+    {
+      "keyword": "RUG",
+      "impact": "negative",
+      "weight": -20,
+      "context": "Another rug pull",
+      "tweet_id": 94
+    },
+    {
+      "keyword": "RUG",
+      "impact": "negative",
+      "weight": -20,
+      "context": "Got rugged again",
+      "tweet_id": 86
+    },
+    {
+      "keyword": "RUG",
+      "impact": "negative",
+      "weight": -20,
+      "context": "Just got rugged for the third time this month",
+      "tweet_id": 30
+    },
+    {
+      "keyword": "MOON",
+      "impact": "positive",
+      "weight": 18,
+      "context": "WAGMI! To the moon! LFG! All the bullish vibes! \ud83c\udf89",
+      "tweet_id": 95
+    },
+    {
+      "keyword": "MOON",
+      "impact": "positive",
+      "weight": 18,
+      "context": "To the moon! \ud83c\udf19 Rocket fuel loaded! Ignition sequence started!",
+      "tweet_id": 59
+    },
+    {
+      "keyword": "MOON",
+      "impact": "positive",
+      "weight": 18,
+      "context": "TO THE MOON! \ud83c\udf19 We're breaking out of this consolidation pattern!",
+      "tweet_id": 8
+    },
+    {
+      "keyword": "LIQUIDATED",
+      "impact": "negative",
+      "weight": -17,
+      "context": "Got liquidated",
+      "tweet_id": 20
+    },
+    {
+      "keyword": "WAGMI",
+      "impact": "positive",
+      "weight": 15,
+      "context": "WAGMI! To the moon! LFG! All the bullish vibes! \ud83c\udf89",
+      "tweet_id": 95
+    },
+    {
+      "keyword": "WAGMI",
+      "impact": "positive",
+      "weight": 15,
+      "context": "WAGMI! Stacking and holding! Long term vision! \ud83d\udc41\ufe0f",
+      "tweet_id": 83
+    },
+    {
+      "keyword": "WAGMI",
+      "impact": "positive",
+      "weight": 15,
+      "context": "WAGMI! Accumulation phase! Stack those coins! \ud83e\ude99",
+      "tweet_id": 55
+    },
+    {
+      "keyword": "ROCKET",
+      "impact": "positive",
+      "weight": 15,
+      "context": "To the moon! \ud83c\udf19 Rocket fuel loaded! Ignition sequence started!",
+      "tweet_id": 59
+    },
+    {
+      "keyword": "WAGMI",
+      "impact": "positive",
+      "weight": 15,
+      "context": "WAGMI WAGMI WAGMI! Keep stacking those sats!",
+      "tweet_id": 17
+    },
+    {
+      "keyword": "WAGMI",
+      "impact": "positive",
+      "weight": 15,
+      "context": "WAGMI! Solana is the future! LFG! \ud83d\ude80",
+      "tweet_id": 1
+    },
+    {
+      "keyword": "WAGMI",
+      "impact": "positive",
+      "weight": 15,
+      "context": "WAGMI! We're all gonna make it! Stay strong! \ud83d\udcaa",
+      "tweet_id": 31
+    },
+    {
+      "keyword": "DUMP",
+      "impact": "negative",
+      "weight": -14,
+      "context": "Just got dumped on",
+      "tweet_id": 66
+    },
+    {
+      "keyword": "DUMP",
+      "impact": "negative",
+      "weight": -14,
+      "context": "Bear trap or real dump? Hard to tell anymore",
+      "tweet_id": 74
+    },
+    {
+      "keyword": "BREAKOUT",
+      "impact": "positive",
+      "weight": 14,
+      "context": "Bullish breakout! We're going higher! Chart looks great! \ud83d\udcca",
+      "tweet_id": 87
+    },
+    {
+      "keyword": "LFG",
+      "impact": "positive",
+      "weight": 12,
+      "context": "WAGMI! To the moon! LFG! All the bullish vibes! \ud83c\udf89",
+      "tweet_id": 95
+    },
+    {
+      "keyword": "LFG",
+      "impact": "positive",
+      "weight": 12,
+      "context": "LFG SOLANA! We're going parabolic soon! \ud83d\udcc8",
+      "tweet_id": 67
+    },
+    {
+      "keyword": "LFG",
+      "impact": "positive",
+      "weight": 12,
+      "context": "WAGMI! Solana is the future! LFG! \ud83d\ude80",
+      "tweet_id": 1
+    },
+    {
+      "keyword": "LFG",
+      "impact": "positive",
+      "weight": 12,
+      "context": "LFG! Diamond hands! We're not selling! \ud83d\udc8e\ud83d\ude4c",
+      "tweet_id": 91
+    },
+    {
+      "keyword": "BULLISH",
+      "impact": "positive",
+      "weight": 10,
+      "context": "WAGMI! To the moon! LFG! All the bullish vibes! \ud83c\udf89",
+      "tweet_id": 95
+    },
+    {
+      "keyword": "BEARISH",
+      "impact": "negative",
+      "weight": -10,
+      "context": "Bearish sentiment everywhere",
+      "tweet_id": 62
+    },
+    {
+      "keyword": "DIAMOND",
+      "impact": "positive",
+      "weight": 10,
+      "context": "Diamond hands \ud83d\udc8e\ud83d\ude4c",
+      "tweet_id": 3
+    },
+    {
+      "keyword": "BULLISH",
+      "impact": "positive",
+      "weight": 10,
+      "context": "Bullish AF on Solana! The technology is just superior! \ud83d\ude80",
+      "tweet_id": 21
+    },
+    {
+      "keyword": "BULLISH",
+      "impact": "positive",
+      "weight": 10,
+      "context": "Solana grants program is funding innovation! Bullish! \ud83c\udf93",
+      "tweet_id": 73
+    },
+    {
+      "keyword": "BULLISH",
+      "impact": "positive",
+      "weight": 10,
+      "context": "Solana mobile is going to change everything! Bullish! \ud83d\udcf1",
+      "tweet_id": 33
+    },
+    {
+      "keyword": "DIAMOND",
+      "impact": "positive",
+      "weight": 10,
+      "context": "LFG! Diamond hands! We're not selling! \ud83d\udc8e\ud83d\ude4c",
+      "tweet_id": 91
+    },
+    {
+      "keyword": "BULLISH",
+      "impact": "positive",
+      "weight": 10,
+      "context": "Bullish breakout! We're going higher! Chart looks great! \ud83d\udcca",
+      "tweet_id": 87
+    },
+    {
+      "keyword": "BUY",
+      "impact": "positive",
+      "weight": 8,
+      "context": "Buying the dip again",
+      "tweet_id": 3
+    }
+  ],
+  "keyword_cloud": {
+    "RUG": 20,
+    "MOON": 18,
+    "LIQUIDATED": 17,
+    "WAGMI": 15
+  },
+  "tweet_count": 50,
+  "tweets_analyzed": [
+    {
+      "id": 95,
+      "text": "WAGMI! To the moon! LFG! All the bullish vibes! \ud83c\udf89",
+      "sentiment": "positive"
+    },
+    {
+      "id": 57,
+      "text": "Solana staking rewards are juicy! Passive income baby! \ud83d\udcb5",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 10,
+      "text": "Neutral on the market right now. Waiting for clearer signals.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 83,
+      "text": "WAGMI! Stacking and holding! Long term vision! \ud83d\udc41\ufe0f",
+      "sentiment": "positive"
+    },
+    {
+      "id": 62,
+      "text": "Bearish sentiment everywhere. Capitulation soon?",
+      "sentiment": "negative"
+    },
+    {
+      "id": 96,
+      "text": "Sideways grind. No momentum. Waiting game.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 3,
+      "text": "Buying the dip again. This is the way. Diamond hands \ud83d\udc8e\ud83d\ude4c",
+      "sentiment": "positive"
+    },
+    {
+      "id": 76,
+      "text": "Market sentiment: confused. That's where I'm at.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 94,
+      "text": "Another rug pull. This space is exhausting.",
+      "sentiment": "negative"
+    },
+    {
+      "id": 36,
+      "text": "Neutral market conditions. Waiting for a clear trend.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 55,
+      "text": "WAGMI! Accumulation phase! Stack those coins! \ud83e\ude99",
+      "sentiment": "positive"
+    },
+    {
+      "id": 81,
+      "text": "Solana ecosystem growth is exponential! Can't keep up!",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 23,
+      "text": "DCA is the way. Buying a little bit every week.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 18,
+      "text": "Sideways market continues. Wake me up when something happens.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 9,
+      "text": "Bear market is here to stay. Time to accumulate and wait.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 88,
+      "text": "Market is meh. Nothing exciting to report.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 68,
+      "text": "Neutral zone. No trades today. Just watching.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 41,
+      "text": "Solana Pay is revolutionary! Payments will never be the same!",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 90,
+      "text": "Bear market blues. When will the pain end? \ud83d\ude1e",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 34,
+      "text": "Bear market vibes are strong. Protect your capital.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 59,
+      "text": "To the moon! \ud83c\udf19 Rocket fuel loaded! Ignition sequence started!",
+      "sentiment": "positive"
+    },
+    {
+      "id": 17,
+      "text": "WAGMI WAGMI WAGMI! Keep stacking those sats!",
+      "sentiment": "positive"
+    },
+    {
+      "id": 80,
+      "text": "Choppy market continues. Patience required.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 5,
+      "text": "Market is just chopping sideways. Boring price action today.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 49,
+      "text": "Solana composability is unmatched! Devs are building crazy stuff!",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 25,
+      "text": "Solana validators are crushing it! Network is so stable now.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 21,
+      "text": "Bullish AF on Solana! The technology is just superior! \ud83d\ude80",
+      "sentiment": "positive"
+    },
+    {
+      "id": 66,
+      "text": "Just got dumped on. Whales are manipulating again.",
+      "sentiment": "negative"
+    },
+    {
+      "id": 72,
+      "text": "Sideways forever. This is the new normal.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 73,
+      "text": "Solana grants program is funding innovation! Bullish! \ud83c\udf93",
+      "sentiment": "positive"
+    },
+    {
+      "id": 65,
+      "text": "Solana infrastructure is top tier! So many tools for devs!",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 8,
+      "text": "TO THE MOON! \ud83c\udf19 We're breaking out of this consolidation pattern!",
+      "sentiment": "positive"
+    },
+    {
+      "id": 84,
+      "text": "Neutral market. No edge right now. Sitting out.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 32,
+      "text": "Price action is choppy. Probably best to sit this one out.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 74,
+      "text": "Bear trap or real dump? Hard to tell anymore.",
+      "sentiment": "negative"
+    },
+    {
+      "id": 33,
+      "text": "Solana mobile is going to change everything! Bullish! \ud83d\udcf1",
+      "sentiment": "positive"
+    },
+    {
+      "id": 67,
+      "text": "LFG SOLANA! We're going parabolic soon! \ud83d\udcc8",
+      "sentiment": "positive"
+    },
+    {
+      "id": 86,
+      "text": "Got rugged again. I never learn. \ud83e\udd26",
+      "sentiment": "negative"
+    },
+    {
+      "id": 16,
+      "text": "Just lost half my portfolio. This is brutal. \ud83d\udcc9",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 1,
+      "text": "WAGMI! Solana is the future! LFG! \ud83d\ude80",
+      "sentiment": "positive"
+    },
+    {
+      "id": 20,
+      "text": "Got liquidated. Pain. Pure pain. \ud83d\ude22",
+      "sentiment": "negative"
+    },
+    {
+      "id": 31,
+      "text": "WAGMI! We're all gonna make it! Stay strong! \ud83d\udcaa",
+      "sentiment": "positive"
+    },
+    {
+      "id": 91,
+      "text": "LFG! Diamond hands! We're not selling! \ud83d\udc8e\ud83d\ude4c",
+      "sentiment": "positive"
+    },
+    {
+      "id": 99,
+      "text": "Buying the dip! This is the way! Always has been! \ud83d\uded2",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 19,
+      "text": "Solana NFTs are popping off! This is the next big thing! \ud83d\uddbc\ufe0f",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 100,
+      "text": "Market sentiment unclear. Mixed signals everywhere.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 15,
+      "text": "Solana ecosystem is growing like crazy! So many new projects!",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 92,
+      "text": "Flat price action. Boring day in crypto.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 30,
+      "text": "Just got rugged for the third time this month. I'm done.",
+      "sentiment": "negative"
+    },
+    {
+      "id": 87,
+      "text": "Bullish breakout! We're going higher! Chart looks great! \ud83d\udcca",
+      "sentiment": "positive"
+    }
+  ]
+}

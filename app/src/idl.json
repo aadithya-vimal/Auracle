@@ -1,0 +1,85 @@
+{
+    "version": "0.1.0",
+    "name": "auracle",
+    "instructions": [
+        {
+            "name": "initialize",
+            "accounts": [
+                {
+                    "name": "sentimentAccount",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "authority",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "systemProgram",
+                    "isMut": false,
+                    "isSigner": false
+                }
+            ],
+            "args": []
+        },
+        {
+            "name": "updateSentiment",
+            "accounts": [
+                {
+                    "name": "sentimentAccount",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "authority",
+                    "isMut": false,
+                    "isSigner": true
+                }
+            ],
+            "args": [
+                {
+                    "name": "newScore",
+                    "type": "u8"
+                }
+            ]
+        }
+    ],
+    "accounts": [
+        {
+            "name": "SentimentAccount",
+            "type": {
+                "kind": "struct",
+                "fields": [
+                    {
+                        "name": "authority",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "score",
+                        "type": "u8"
+                    },
+                    {
+                        "name": "timestamp",
+                        "type": "i64"
+                    }
+                ]
+            }
+        }
+    ],
+    "errors": [
+        {
+            "code": 6000,
+            "name": "InvalidScore",
+            "msg": "Score must be between 0 and 100"
+        },
+        {
+            "code": 6001,
+            "name": "Unauthorized",
+            "msg": "Only the authority can update the sentiment"
+        }
+    ],
+    "metadata": {
+        "address": "11111111111111111111111111111111"
+    }
+}

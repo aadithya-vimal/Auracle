@@ -1,0 +1,14 @@
+# Anchor
+target/
+.anchor/
+test-ledger/
+.DS_Store
+
+# IDL
+*.so
+*.d
+*.rlib
+
+# Rust
+**/*.rs.bk
+Cargo.lock
