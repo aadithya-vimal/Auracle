@@ -1,73 +1,193 @@
 {
-  "score": 50,
-  "confidence": 60.0,
-  "velocity": -4,
-  "timestamp": "2026-02-14T15:38:18.810764",
-  "cycle": 110,
+  "score": 98,
+  "confidence": 91.5,
+  "velocity": -3,
+  "timestamp": "2026-02-14T15:54:33.222543",
+  "cycle": 9,
   "pipeline": {
     "corpus_size": 10000,
     "batch_size": 200,
     "stages": [
       {
         "name": "Bot Detection",
-        "duration_ms": 4.6,
+        "duration_ms": 2.6,
         "processed": 200,
-        "flagged": 19
+        "flagged": 32
       },
       {
         "name": "Spam Filtering",
-        "duration_ms": 1.7,
+        "duration_ms": 1.1,
         "processed": 200,
-        "flagged": 14
+        "flagged": 22
       },
       {
         "name": "Duplicate Detection",
-        "duration_ms": 0.8,
+        "duration_ms": 0.4,
         "processed": 200,
-        "duplicates_found": 200
+        "duplicates_found": 184
       },
       {
         "name": "Quality Scoring",
         "duration_ms": 0.1,
-        "processed": 0,
-        "clean": 0,
-        "filtered": 0
+        "processed": 16,
+        "clean": 6,
+        "filtered": 10
       }
     ],
     "quality_distribution": {
       "high": 0,
-      "medium": 0,
+      "medium": 16,
       "low": 0
     }
   },
   "engine": {
-    "bots_detected": 0,
+    "bots_detected": 10,
     "spam_filtered": 0,
-    "duplicates_removed": 200,
-    "outliers_found": 0,
-    "clean_tweets": 0,
+    "duplicates_removed": 184,
+    "outliers_found": 1,
+    "clean_tweets": 6,
     "low_quality": 0,
-    "bot_accounts": [],
+    "bot_accounts": [
+      {
+        "username": "moon_boy_4610",
+        "confidence": 0.75,
+        "reasons": [
+          "Excessive caps (74%)",
+          "New account (5 days)"
+        ]
+      },
+      {
+        "username": "10x_calls_5164",
+        "confidence": 0.9,
+        "reasons": [
+          "Excessive caps (75%)",
+          "New account (7 days)",
+          "Low followers (1)"
+        ]
+      },
+      {
+        "username": "crypto_gem_5164",
+        "confidence": 0.65,
+        "reasons": [
+          "Exclamation spam (5x)",
+          "New account (1 days)"
+        ]
+      },
+      {
+        "username": "shill_army_8808",
+        "confidence": 0.55,
+        "reasons": [
+          "Excessive caps (69%)"
+        ]
+      },
+      {
+        "username": "10x_calls_7601",
+        "confidence": 0.5,
+        "reasons": [
+          "New account (2 days)"
+        ]
+      },
+      {
+        "username": "crypto_gem_3944",
+        "confidence": 0.65,
+        "reasons": [
+          "Exclamation spam (5x)",
+          "New account (11 days)"
+        ]
+      },
+      {
+        "username": "crypto_gem_8683",
+        "confidence": 0.75,
+        "reasons": [
+          "Excessive caps (65%)",
+          "New account (13 days)"
+        ]
+      },
+      {
+        "username": "signal_master3904",
+        "confidence": 0.75,
+        "reasons": [
+          "Excessive caps (65%)",
+          "New account (2 days)"
+        ]
+      },
+      {
+        "username": "signal_master8467",
+        "confidence": 0.75,
+        "reasons": [
+          "Excessive caps (73%)",
+          "New account (10 days)"
+        ]
+      },
+      {
+        "username": "pump_alert7303",
+        "confidence": 0.9,
+        "reasons": [
+          "Excessive caps (73%)",
+          "New account (4 days)",
+          "Low followers (1)"
+        ]
+      }
+    ],
     "spam_alerts": [],
     "cumulative": {
-      "total_processed": 22000,
-      "bots_detected": 429,
-      "spam_filtered": 6,
-      "duplicates_removed": 21236,
-      "outliers_flagged": 32,
+      "total_processed": 1800,
+      "bots_detected": 88,
+      "spam_filtered": 3,
+      "duplicates_removed": 1531,
+      "outliers_flagged": 15,
       "low_quality_filtered": 0,
-      "clean_tweets": 297,
-      "unique_bot_accounts": 427
+      "clean_tweets": 163,
+      "unique_bot_accounts": 88
     }
   },
-  "reasoning": [],
-  "keyword_cloud": {},
+  "reasoning": [
+    {
+      "keyword": "MOON",
+      "impact": "positive",
+      "weight": 18,
+      "context": "$SOL $SOL $SOL TO THE MOON!!! BUY BUY BUY!!! \ud83d\ude80\ud83d\udd25\ud83d\ude80\ud83d\ude80\ud83d\udc8e",
+      "tweet_id": 5470
+    },
+    {
+      "keyword": "MOON",
+      "impact": "positive",
+      "weight": 18,
+      "context": "Buy $SOL now! 100x potential! Don't miss out! #Solana #Crypto #Moon \ud83d\udd25\ud83d\udd25\ud83d\ude80\ud83d\udd25\ud83d\udd25",
+      "tweet_id": 3274
+    },
+    {
+      "keyword": "BUY",
+      "impact": "positive",
+      "weight": 8,
+      "context": "Just mass buying $SOL. This is financial advice. Trust me bro. \ud83d\udcb0\ud83d\udcc8\ud83d\ude80\ud83d\udcb0",
+      "tweet_id": 4144
+    },
+    {
+      "keyword": "BUY",
+      "impact": "positive",
+      "weight": 8,
+      "context": "$SOL $SOL $SOL TO THE MOON!!! BUY BUY BUY!!! \ud83d\ude80\ud83d\udd25\ud83d\ude80\ud83d\ude80\ud83d\udc8e",
+      "tweet_id": 5470
+    },
+    {
+      "keyword": "BUY",
+      "impact": "positive",
+      "weight": 8,
+      "context": "Buy $SOL now! 100x potential! Don't miss out! #Solana #Crypto #Moon \ud83d\udd25\ud83d\udd25\ud83d\ude80\ud83d\udd25\ud83d\udd25",
+      "tweet_id": 3274
+    }
+  ],
+  "keyword_cloud": {
+    "MOON": 18,
+    "BUY": 8
+  },
   "tweet_count": 200,
   "tweets_analyzed": [
     {
-      "id": 171,
-      "text": "Dev activity on Solana growing 40% QoQ. Build season is here.",
-      "username": "solana_fan_438",
+      "id": 3609,
+      "text": "Solana went down again for 3 hours. How is this acceptable?",
+      "username": "chain_watcher_8535",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -77,457 +197,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 251,
-        "retweets": 34,
-        "replies": 27
-      },
-      "category": "organic"
-    },
-    {
-      "id": 1732,
-      "text": "Pump.fun on Solana doing $2M/day in revenue. Ecosystem cash flow is real.",
-      "username": "data_miner_2388",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 357,
-        "retweets": 93,
-        "replies": 13
-      },
-      "category": "organic"
-    },
-    {
-      "id": 4480,
-      "text": "first time buying crypto",
-      "username": "blockchain_dev_3326",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 463,
-        "retweets": 85,
-        "replies": 36
-      },
-      "category": "noise"
-    },
-    {
-      "id": 4781,
-      "text": "Solana's clock drift issues still aren't fixed. Fundamental problem.",
-      "username": "token_analyst_1283",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 135,
-        "retweets": 100,
-        "replies": 24
-      },
-      "category": "organic"
-    },
-    {
-      "id": 9975,
-      "text": "JUST IN: Major Solana DeFi protocol hacked for $200M. Funds at risk.",
-      "username": "hodler_8446",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 46993,
-        "retweets": 1331,
-        "replies": 363
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 4881,
-      "text": "interesting",
-      "username": "web3_builder_7646",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 459,
-        "retweets": 0,
-        "replies": 33
-      },
-      "category": "noise"
-    },
-    {
-      "id": 6060,
-      "text": "Market is completely sideways. No conviction either way on $SOL.",
-      "username": "token_analyst_3710",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 308,
-        "retweets": 43,
-        "replies": 33
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2596,
-      "text": "$SOL consolidating at current levels. Waiting for a clear direction.",
-      "username": "data_miner_455",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 143,
-        "retweets": 41,
-        "replies": 33
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8734,
-      "text": "The Solana phone was a flop. Hardware play was a mistake.",
-      "username": "solana_fan_8444",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 122,
-        "retweets": 21,
-        "replies": 11
-      },
-      "category": "organic"
-    },
-    {
-      "id": 4973,
-      "text": "WHALE ALERT: Unknown wallet accumulates 2% of entire $SOL supply.",
-      "username": "defi_degen_2518",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 5006,
-        "retweets": 1434,
-        "replies": 1661
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 9337,
-      "text": "LFG! Solana ecosystem is absolutely cooking right now.",
-      "username": "nft_collector_7327",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 189,
-        "retweets": 47,
-        "replies": 8
-      },
-      "category": "organic"
-    },
-    {
-      "id": 9808,
-      "text": "Institutional interest in Solana is accelerating. Grayscale adding exposure.",
-      "username": "web3_builder_1757",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 282,
-        "retweets": 63,
-        "replies": 22
-      },
-      "category": "organic"
-    },
-    {
-      "id": 9834,
-      "text": "The Solana phone was genius. Mobile-first crypto is the play.",
-      "username": "chain_watcher_8055",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 91,
-        "retweets": 69,
-        "replies": 37
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2293,
-      "text": "BREAKING: $SOL about to explode!! RT and follow for more alpha!! \ud83d\udd25\ud83d\udcc8\ud83d\udcb0\ud83d\ude80",
-      "username": "signal_master4150",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.3,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.65,
-      "is_outlier": true,
-      "engagement": {
-        "likes": 2,
-        "retweets": 0,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 2375,
-      "text": "NEW Solana token 1000x guaranteed! Pre-sale at scam.finance",
-      "username": "pump_alert8021",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.3,
-      "bot_reasons": [],
-      "is_spam": true,
-      "spam_type": "promotional",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 5,
-        "retweets": 2,
-        "replies": 1
-      },
-      "category": "spam"
-    },
-    {
-      "id": 3138,
-      "text": "Bear market vibes. $SOL losing key support levels one by one.",
-      "username": "alpha_seeker_8226",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.9,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 215,
-        "retweets": 19,
-        "replies": 38
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8023,
-      "text": "$SOL dumping hard. Support at $80 won't hold.",
-      "username": "tech_explorer_8993",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 342,
-        "retweets": 10,
-        "replies": 48
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2786,
-      "text": "BUY $SOL NOW! 100X POTENTIAL! DON'T MISS OUT! #SOLANA #CRYPTO #MOON \ud83d\udd25\ud83d\ude80\ud83d\udcc8\ud83d\udcc8",
-      "username": "moon_boy_4207",
-      "sentiment": "neutral",
-      "is_bot": true,
-      "bot_confidence": 0.55,
-      "bot_reasons": [
-        "Excessive caps (64%)"
-      ],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.65,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 1,
-        "retweets": 1,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 7057,
-      "text": "sol",
-      "username": "data_miner_1177",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 412,
-        "retweets": 65,
-        "replies": 33
-      },
-      "category": "noise"
-    },
-    {
-      "id": 3896,
-      "text": "wagmi I guess",
-      "username": "blockchain_dev_9689",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 304,
-        "retweets": 77,
-        "replies": 0
-      },
-      "category": "noise"
-    },
-    {
-      "id": 918,
-      "text": "BREAKING: SEC approves Solana ETF. This changes everything for $SOL.",
-      "username": "token_analyst_7899",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 9315,
-        "retweets": 9799,
-        "replies": 133
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 5637,
-      "text": "URGENT: $SOL whale alert! 500M tokens moved! Pump incoming!!!",
-      "username": "x2F8k_bot6472",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.45,
-      "bot_reasons": [
-        "Exclamation spam (5x)"
-      ],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 5,
-        "retweets": 0,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 1892,
-      "text": "Another exploit on a Solana DeFi protocol. Security is a joke.",
-      "username": "web3_builder_6622",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 227,
-        "retweets": 98,
-        "replies": 32
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2387,
-      "text": "Pump.fun on Solana doing $2M/day in revenue. Ecosystem cash flow is real.",
-      "username": "alpha_seeker_3909",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 75,
-        "retweets": 71,
+        "likes": 183,
+        "retweets": 35,
         "replies": 18
       },
       "category": "organic"
     },
     {
-      "id": 7334,
-      "text": "anyone here?",
-      "username": "market_pulse_4793",
+      "id": 7208,
+      "text": "Another Solana outage. I'm done with this chain. Moving to ETH.",
+      "username": "nft_collector_650",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -537,56 +216,135 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 102,
-        "retweets": 20,
-        "replies": 2
-      },
-      "category": "noise"
-    },
-    {
-      "id": 8896,
-      "text": "$SOL is the most asymmetric bet in crypto right now.",
-      "username": "web3_builder_3455",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 191,
-        "retweets": 64,
-        "replies": 8
+        "likes": 405,
+        "retweets": 49,
+        "replies": 31
       },
       "category": "organic"
     },
     {
-      "id": 2047,
-      "text": "Elon Musk just invested in Solana! Claim bonus: fakelink.net",
-      "username": "x2F8k_bot1135",
+      "id": 1073,
+      "text": "MY UNCLE WORKS AT SOLANA LABS AND HE SAID BIG ANNOUNCEMENT COMING!!! \ud83d\udcb0\ud83d\udc8e\ud83d\udcc8\ud83d\udcc8",
+      "username": "moon_boy_4610",
       "sentiment": "neutral",
       "is_bot": true,
-      "bot_confidence": 0.5,
+      "bot_confidence": 0.75,
       "bot_reasons": [
-        "New account (8 days)"
+        "Excessive caps (74%)",
+        "New account (5 days)"
       ],
-      "is_spam": true,
-      "spam_type": "phishing",
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 5,
+        "retweets": 1,
+        "replies": 1
+      },
+      "category": "bot"
+    },
+    {
+      "id": 3741,
+      "text": "Volume declining on $SOL pairs. Uncertainty in the market.",
+      "username": "alpha_seeker_7298",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 4,
-        "retweets": 1,
-        "replies": 0
+        "likes": 319,
+        "retweets": 80,
+        "replies": 11
       },
-      "category": "spam"
+      "category": "organic"
     },
     {
-      "id": 937,
-      "text": "is solana good",
-      "username": "solana_fan_6634",
+      "id": 7978,
+      "text": "Dev activity on Solana growing 40% QoQ. Build season is here.",
+      "username": "whale_tracker_1732",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 228,
+        "retweets": 48,
+        "replies": 3
+      },
+      "category": "organic"
+    },
+    {
+      "id": 9277,
+      "text": "$SOL dumping hard. Support at $80 won't hold.",
+      "username": "web3_builder_4843",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 100,
+        "retweets": 70,
+        "replies": 29
+      },
+      "category": "organic"
+    },
+    {
+      "id": 4144,
+      "text": "Just mass buying $SOL. This is financial advice. Trust me bro. \ud83d\udcb0\ud83d\udcc8\ud83d\ude80\ud83d\udcb0",
+      "username": "free_money_4678",
+      "sentiment": "positive",
+      "is_bot": false,
+      "bot_confidence": 0.45,
+      "bot_reasons": [
+        "Low followers (4)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 0,
+        "retweets": 2,
+        "replies": 1
+      },
+      "category": "bot"
+    },
+    {
+      "id": 9159,
+      "text": "Another day, another protocol launching on Solana. Ecosystem is thriving.",
+      "username": "sol_maxi_8261",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 170,
+        "retweets": 46,
+        "replies": 22
+      },
+      "category": "organic"
+    },
+    {
+      "id": 1184,
+      "text": "Plunge in Solana DEX volume. Users are leaving.",
+      "username": "market_pulse_2676",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -597,193 +355,15 @@
       "is_outlier": false,
       "engagement": {
         "likes": 404,
-        "retweets": 62,
-        "replies": 37
-      },
-      "category": "noise"
-    },
-    {
-      "id": 430,
-      "text": "BUY $SOL NOW! 100X POTENTIAL! DON'T MISS OUT! #SOLANA #CRYPTO #MOON \ud83d\udc8e\ud83d\ude80\ud83d\udd25",
-      "username": "crypto_gem_6034",
-      "sentiment": "neutral",
-      "is_bot": true,
-      "bot_confidence": 0.7,
-      "bot_reasons": [
-        "Excessive caps (65%)",
-        "Low followers (6)"
-      ],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.65,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 2,
-        "retweets": 2,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 3947,
-      "text": "Connect wallet at sol-airdrop-official.com for FREE tokens!",
-      "username": "x2F8k_bot365",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.45,
-      "bot_reasons": [
-        "Low followers (7)"
-      ],
-      "is_spam": true,
-      "spam_type": "promotional",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 1,
-        "retweets": 2,
-        "replies": 0
-      },
-      "category": "spam"
-    },
-    {
-      "id": 3002,
-      "text": "Technical analysis on $SOL showing conflicting signals across timeframes.",
-      "username": "token_analyst_9595",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 168,
-        "retweets": 19,
-        "replies": 45
-      },
-      "category": "organic"
-    },
-    {
-      "id": 5167,
-      "text": "DCA into $SOL continues. Not timing the market, just building position.",
-      "username": "token_analyst_1195",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 16,
-        "retweets": 66,
-        "replies": 2
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2465,
-      "text": "BREAKING: $SOL ABOUT TO EXPLODE!! RT AND FOLLOW FOR MORE ALPHA!! \ud83d\udd25\ud83d\udcb0",
-      "username": "free_money_2503",
-      "sentiment": "neutral",
-      "is_bot": true,
-      "bot_confidence": 0.55,
-      "bot_reasons": [
-        "Excessive caps (72%)"
-      ],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.65,
-      "is_outlier": true,
-      "engagement": {
-        "likes": 4,
-        "retweets": 0,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 3981,
-      "text": "WAGMI Solana fam. This cycle belongs to us.",
-      "username": "whale_tracker_1735",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 145,
-        "retweets": 42,
-        "replies": 34
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8704,
-      "text": "sol",
-      "username": "chain_watcher_4934",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 230,
-        "retweets": 81,
-        "replies": 16
-      },
-      "category": "noise"
-    },
-    {
-      "id": 6280,
-      "text": "If you're not buying #Solana right now, you'll regret it in 6 months. NFA.",
-      "username": "hodler_5511",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 137,
-        "retweets": 50,
-        "replies": 22
-      },
-      "category": "organic"
-    },
-    {
-      "id": 7775,
-      "text": "HODL $SOL. We're still early in this cycle.",
-      "username": "solana_fan_3282",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 320,
-        "retweets": 30,
+        "retweets": 67,
         "replies": 10
       },
       "category": "organic"
     },
     {
-      "id": 3298,
-      "text": "first time buying crypto",
-      "username": "token_analyst_4275",
+      "id": 4542,
+      "text": "Solana's clock drift issues still aren't fixed. Fundamental problem.",
+      "username": "market_pulse_6615",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -793,175 +373,56 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 153,
-        "retweets": 40,
-        "replies": 17
+        "likes": 99,
+        "retweets": 13,
+        "replies": 45
+      },
+      "category": "organic"
+    },
+    {
+      "id": 6795,
+      "text": "can someone explain solana",
+      "username": "nft_collector_9293",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 222,
+        "retweets": 88,
+        "replies": 13
       },
       "category": "noise"
     },
     {
-      "id": 8112,
-      "text": "$SOL $SOL $SOL TO THE MOON!!! BUY BUY BUY!!!",
-      "username": "free_money_9669",
-      "sentiment": "neutral",
-      "is_bot": true,
-      "bot_confidence": 0.7,
-      "bot_reasons": [
-        "Excessive caps (61%)",
-        "Exclamation spam (6x)"
-      ],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 1,
-        "retweets": 2,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 1119,
-      "text": "Solana ecosystem update: mixed signals. Some growth, some concerns.",
-      "username": "hodler_5121",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 105,
-        "retweets": 37,
-        "replies": 9
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2625,
-      "text": "Solana's clock drift issues still aren't fixed. Fundamental problem.",
-      "username": "blockchain_dev_3628",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 300,
-        "retweets": 54,
-        "replies": 27
-      },
-      "category": "organic"
-    },
-    {
-      "id": 1340,
-      "text": "Network congestion on Solana making it unusable. Priority fees are insane.",
-      "username": "solana_fan_7314",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.9,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 306,
-        "retweets": 17,
-        "replies": 31
-      },
-      "category": "organic"
-    },
-    {
-      "id": 515,
-      "text": "The amount of rugs on Solana is embarrassing. Every token is a scam.",
-      "username": "defi_degen_4760",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 284,
-        "retweets": 24,
-        "replies": 4
-      },
-      "category": "organic"
-    },
-    {
-      "id": 5594,
-      "text": "Institutional interest in Solana is accelerating. Grayscale adding exposure.",
-      "username": "nft_collector_9973",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 498,
-        "retweets": 25,
-        "replies": 32
-      },
-      "category": "organic"
-    },
-    {
-      "id": 3800,
-      "text": "BREAKING: $SOL about to explode!! RT and follow for more alpha!!",
-      "username": "free_money_750",
-      "sentiment": "neutral",
-      "is_bot": true,
-      "bot_confidence": 0.5,
-      "bot_reasons": [
-        "New account (12 days)"
-      ],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 3,
-        "retweets": 0,
-        "replies": 1
-      },
-      "category": "bot"
-    },
-    {
-      "id": 4432,
-      "text": "I JUST MADE $50,000 TRADING $SOL IN ONE DAY! DM ME FOR MY STRATEGY!",
-      "username": "shill_army_275",
+      "id": 8738,
+      "text": "SOLANA WILL HIT $10000 BY END OF YEAR GUARANTEED NO CAP FR FR",
+      "username": "x2F8k_bot8682",
       "sentiment": "neutral",
       "is_bot": true,
       "bot_confidence": 0.55,
       "bot_reasons": [
-        "Excessive caps (66%)"
+        "Excessive caps (70%)"
       ],
-      "is_spam": false,
+      "is_spam": true,
       "spam_type": "promotional",
-      "quality_score": 0.5,
+      "quality_score": 0.65,
       "is_outlier": false,
       "engagement": {
-        "likes": 4,
+        "likes": 3,
         "retweets": 1,
         "replies": 1
       },
       "category": "bot"
     },
     {
-      "id": 4270,
-      "text": "WHALE ALERT: Unknown wallet accumulates 2% of entire $SOL supply.",
-      "username": "defi_degen_1731",
+      "id": 3620,
+      "text": "$SOL is going to zero. Ethereum has already won L1 wars.",
+      "username": "defi_degen_6725",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -971,35 +432,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 34179,
-        "retweets": 1551,
-        "replies": 169
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 3017,
-      "text": "$SOL stuck in a range. Need a catalyst for the next move.",
-      "username": "whale_tracker_8449",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 62,
-        "retweets": 47,
-        "replies": 18
+        "likes": 495,
+        "retweets": 56,
+        "replies": 17
       },
       "category": "organic"
     },
     {
-      "id": 4221,
-      "text": "JUST IN: Major Solana DeFi protocol hacked for $200M. Funds at risk.",
-      "username": "web3_builder_3779",
+      "id": 1629,
+      "text": "Transaction fees on Solana: $0.00025. On Ethereum: $15. Easy choice.",
+      "username": "crypto_trader_257",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1009,35 +451,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 45332,
-        "retweets": 3739,
-        "replies": 74
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 2574,
-      "text": "Crypto market overall feels undecided. $SOL following BTC closely.",
-      "username": "defi_degen_8124",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 243,
-        "retweets": 7,
-        "replies": 34
+        "likes": 180,
+        "retweets": 14,
+        "replies": 45
       },
       "category": "organic"
     },
     {
-      "id": 3301,
-      "text": "Another day, another protocol launching on Solana. Ecosystem is thriving.",
-      "username": "chain_watcher_7198",
+      "id": 8451,
+      "text": "Solana blinks are revolutionary. Social commerce on blockchain.",
+      "username": "nft_collector_4937",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1047,57 +470,38 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 18,
-        "retweets": 24,
-        "replies": 37
+        "likes": 139,
+        "retweets": 4,
+        "replies": 19
       },
       "category": "organic"
     },
     {
-      "id": 7276,
-      "text": "Volume declining on $SOL pairs. Uncertainty in the market.",
-      "username": "whale_tracker_5516",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 52,
-        "retweets": 48,
-        "replies": 26
-      },
-      "category": "organic"
-    },
-    {
-      "id": 7172,
-      "text": "BREAKING: $SOL ABOUT TO EXPLODE!! RT AND FOLLOW FOR MORE ALPHA!! \ud83d\udc8e\ud83d\udd25\ud83d\udcb0\ud83d\udc8e",
-      "username": "free_money_1188",
+      "id": 2713,
+      "text": "I JUST MADE $50,000 TRADING $SOL IN ONE DAY! DM ME FOR MY STRATEGY!",
+      "username": "free_money_3606",
       "sentiment": "neutral",
       "is_bot": true,
-      "bot_confidence": 0.75,
+      "bot_confidence": 0.7,
       "bot_reasons": [
-        "Excessive caps (70%)",
-        "New account (1 days)"
+        "Excessive caps (66%)",
+        "Low followers (3)"
       ],
       "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.65,
-      "is_outlier": true,
+      "spam_type": "promotional",
+      "quality_score": 0.5,
+      "is_outlier": false,
       "engagement": {
-        "likes": 4,
-        "retweets": 0,
+        "likes": 0,
+        "retweets": 1,
         "replies": 1
       },
       "category": "bot"
     },
     {
-      "id": 8572,
-      "text": "BREAKING: Solana flips Ethereum in daily active addresses for first time.",
-      "username": "whale_tracker_1990",
+      "id": 7599,
+      "text": "Just bridged everything to Solana. Speed and cost are unmatched.",
+      "username": "chain_watcher_8814",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1107,35 +511,35 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 34498,
-        "retweets": 3310,
-        "replies": 373
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 6639,
-      "text": "Just tried Solana Pay at a coffee shop. The future is here.",
-      "username": "nft_collector_5579",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 325,
-        "retweets": 23,
-        "replies": 47
+        "likes": 394,
+        "retweets": 48,
+        "replies": 0
       },
       "category": "organic"
     },
     {
-      "id": 9162,
-      "text": "Crash incoming. $SOL daily RSI showing severe bearish divergence.",
-      "username": "web3_builder_7837",
+      "id": 6118,
+      "text": "I recovered my lost crypto using recovercrypto.scam. Try it!",
+      "username": "x2F8k_bot3565",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": true,
+      "spam_type": "phishing",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "category": "spam"
+    },
+    {
+      "id": 4242,
+      "text": "Another exploit on a Solana DeFi protocol. Security is a joke.",
+      "username": "tech_explorer_5588",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1145,16 +549,491 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 406,
-        "retweets": 62,
+        "likes": 183,
+        "retweets": 5,
+        "replies": 10
+      },
+      "category": "organic"
+    },
+    {
+      "id": 8992,
+      "text": "Elon Musk just invested in Solana! Claim bonus: fakelink.net",
+      "username": "x2F8k_bot5886",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": true,
+      "spam_type": "phishing",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 5,
+        "retweets": 2,
+        "replies": 0
+      },
+      "category": "spam"
+    },
+    {
+      "id": 9086,
+      "text": "The Solana phone was genius. Mobile-first crypto is the play.",
+      "username": "data_miner_1728",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 410,
+        "retweets": 50,
+        "replies": 29
+      },
+      "category": "organic"
+    },
+    {
+      "id": 9850,
+      "text": "Just bridged everything to Solana. Speed and cost are unmatched.",
+      "username": "data_miner_888",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 334,
+        "retweets": 49,
+        "replies": 12
+      },
+      "category": "organic"
+    },
+    {
+      "id": 6304,
+      "text": "Solana DeFi TVL just crossed $8B. Massive inflows from Ethereum.",
+      "username": "defi_degen_3370",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 356,
+        "retweets": 50,
         "replies": 49
       },
       "category": "organic"
     },
     {
-      "id": 4377,
-      "text": "Waiting for Solana's next earnings... I mean, next ecosystem report.",
-      "username": "market_pulse_2843",
+      "id": 3975,
+      "text": "Another Solana outage. I'm done with this chain. Moving to ETH.",
+      "username": "hodler_5765",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 270,
+        "retweets": 87,
+        "replies": 24
+      },
+      "category": "organic"
+    },
+    {
+      "id": 36,
+      "text": "Buy $SOL now! 100x potential! Don't miss out! #Solana #Crypto #Moon",
+      "username": "x2F8k_bot976",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 5,
+        "retweets": 2,
+        "replies": 1
+      },
+      "category": "bot"
+    },
+    {
+      "id": 1213,
+      "text": "Solana compressed NFTs are 1000x cheaper. State compression is genius.",
+      "username": "chain_watcher_4914",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 43,
+        "retweets": 27,
+        "replies": 25
+      },
+      "category": "organic"
+    },
+    {
+      "id": 4614,
+      "text": "Solana went down again for 3 hours. How is this acceptable?",
+      "username": "alpha_seeker_7546",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 138,
+        "retweets": 34,
+        "replies": 15
+      },
+      "category": "organic"
+    },
+    {
+      "id": 9278,
+      "text": "anyone here?",
+      "username": "chain_watcher_7515",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 282,
+        "retweets": 8,
+        "replies": 9
+      },
+      "category": "noise"
+    },
+    {
+      "id": 2612,
+      "text": "BREAKING: $SOL about to explode!! RT and follow for more alpha!!",
+      "username": "crypto_gem_2199",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 1,
+        "retweets": 2,
+        "replies": 0
+      },
+      "category": "bot"
+    },
+    {
+      "id": 6955,
+      "text": "The amount of building happening on Solana is insane. Been deploying all week.",
+      "username": "whale_tracker_1239",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 333,
+        "retweets": 74,
+        "replies": 33
+      },
+      "category": "organic"
+    },
+    {
+      "id": 7364,
+      "text": "wagmi I guess",
+      "username": "sol_maxi_3447",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 427,
+        "retweets": 97,
+        "replies": 1
+      },
+      "category": "noise"
+    },
+    {
+      "id": 8806,
+      "text": "NEW Solana token 1000x guaranteed! Pre-sale at scam.finance",
+      "username": "10x_calls_4504",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": true,
+      "spam_type": "promotional",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 3,
+        "retweets": 2,
+        "replies": 0
+      },
+      "category": "spam"
+    },
+    {
+      "id": 302,
+      "text": "The Solana phone was genius. Mobile-first crypto is the play.",
+      "username": "sol_maxi_4200",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 56,
+        "retweets": 10,
+        "replies": 28
+      },
+      "category": "organic"
+    },
+    {
+      "id": 3207,
+      "text": "Solana's Firedancer client will be a game changer. Multi-client future.",
+      "username": "hodler_2971",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 413,
+        "retweets": 21,
+        "replies": 15
+      },
+      "category": "organic"
+    },
+    {
+      "id": 3752,
+      "text": "WHALE ALERT: 50,000,000 $SOL transferred to Coinbase. Massive sell incoming?",
+      "username": "defi_degen_5780",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 48784,
+        "retweets": 2259,
+        "replies": 234
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 1923,
+      "text": "Crypto market overall feels undecided. $SOL following BTC closely.",
+      "username": "defi_degen_1648",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 98,
+        "retweets": 50,
+        "replies": 26
+      },
+      "category": "organic"
+    },
+    {
+      "id": 5489,
+      "text": "Just got liquidated on a $SOL long. This market is brutal.",
+      "username": "whale_tracker_7982",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 169,
+        "retweets": 91,
+        "replies": 49
+      },
+      "category": "organic"
+    },
+    {
+      "id": 7935,
+      "text": "JUST IN: Visa announces Solana integration for global payments.",
+      "username": "market_pulse_6359",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 41340,
+        "retweets": 7416,
+        "replies": 1914
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 6398,
+      "text": "BREAKING: SEC approves Solana ETF. This changes everything for $SOL.",
+      "username": "blockchain_dev_5051",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 13213,
+        "retweets": 9075,
+        "replies": 461
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 2957,
+      "text": "MASSIVE: JPMorgan tokenizes $500M in assets on Solana blockchain.",
+      "username": "solana_fan_5741",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 26545,
+        "retweets": 6647,
+        "replies": 805
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 7061,
+      "text": "JUST IN: Visa announces Solana integration for global payments.",
+      "username": "crypto_trader_725",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 44775,
+        "retweets": 2874,
+        "replies": 1667
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 4406,
+      "text": "Solana NFT volume surpassing ETH on multiple days now. Bullish.",
+      "username": "chain_watcher_8111",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 167,
+        "retweets": 8,
+        "replies": 45
+      },
+      "category": "organic"
+    },
+    {
+      "id": 8560,
+      "text": "The Solana phone was a flop. Hardware play was a mistake.",
+      "username": "data_miner_5667",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 497,
+        "retweets": 41,
+        "replies": 26
+      },
+      "category": "organic"
+    },
+    {
+      "id": 5098,
+      "text": "JUST IN: Visa announces Solana integration for global payments.",
+      "username": "crypto_trader_7577",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 41611,
+        "retweets": 3804,
+        "replies": 635
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 7645,
+      "text": "$SOL selling pressure is relentless. Whales are unloading bags.",
+      "username": "hodler_9414",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1165,243 +1044,55 @@
       "is_outlier": false,
       "engagement": {
         "likes": 19,
-        "retweets": 7,
-        "replies": 32
-      },
-      "category": "organic"
-    },
-    {
-      "id": 3897,
-      "text": "gm",
-      "username": "web3_builder_3528",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 499,
-        "retweets": 37,
-        "replies": 26
-      },
-      "category": "noise"
-    },
-    {
-      "id": 8592,
-      "text": "Just sold all my Solana. Risk-reward doesn't make sense anymore.",
-      "username": "defi_degen_264",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 246,
-        "retweets": 100,
-        "replies": 8
-      },
-      "category": "organic"
-    },
-    {
-      "id": 437,
-      "text": "$SOL weekly chart is the most bullish setup I've seen in months.",
-      "username": "blockchain_dev_6911",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 171,
-        "retweets": 52,
-        "replies": 49
-      },
-      "category": "organic"
-    },
-    {
-      "id": 3543,
-      "text": "Solana went down again for 3 hours. How is this acceptable?",
-      "username": "defi_degen_7615",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 423,
-        "retweets": 90,
-        "replies": 8
-      },
-      "category": "organic"
-    },
-    {
-      "id": 7972,
-      "text": "Sell your #Solana before it's too late. Bear market is coming.",
-      "username": "tech_explorer_2033",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 232,
-        "retweets": 18,
+        "retweets": 92,
         "replies": 22
       },
       "category": "organic"
     },
     {
-      "id": 5365,
-      "text": "Solana's clock drift issues still aren't fixed. Fundamental problem.",
-      "username": "defi_degen_6792",
+      "id": 1512,
+      "text": "GIVEAWAY: Send 1 SOL get 10 SOL back! Official Solana event!",
+      "username": "x2F8k_bot6256",
       "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
+      "is_bot": true,
+      "bot_confidence": 0.5,
+      "bot_reasons": [
+        "New account (11 days)"
+      ],
+      "is_spam": true,
+      "spam_type": "promotional",
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 24,
-        "retweets": 75,
-        "replies": 36
-      },
-      "category": "organic"
-    },
-    {
-      "id": 3404,
-      "text": "lol crypto",
-      "username": "defi_degen_5407",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 385,
-        "retweets": 77,
-        "replies": 48
-      },
-      "category": "noise"
-    },
-    {
-      "id": 9103,
-      "text": "WHALE ALERT: 50,000,000 $SOL transferred to Coinbase. Massive sell incoming?",
-      "username": "solana_fan_9143",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 21468,
-        "retweets": 9661,
-        "replies": 1581
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 4130,
-      "text": "Dev activity on Solana growing 40% QoQ. Build season is here.",
-      "username": "token_analyst_9914",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 26,
-        "retweets": 84,
-        "replies": 47
-      },
-      "category": "organic"
-    },
-    {
-      "id": 696,
-      "text": "ngmi probably",
-      "username": "crypto_trader_1811",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 290,
-        "retweets": 47,
-        "replies": 8
-      },
-      "category": "noise"
-    },
-    {
-      "id": 6766,
-      "text": "Institutional interest in Solana is accelerating. Grayscale adding exposure.",
-      "username": "nft_collector_6826",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 159,
-        "retweets": 76,
-        "replies": 13
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8633,
-      "text": "$SOL consolidating at current levels. Waiting for a clear direction.",
-      "username": "nft_collector_5544",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 492,
-        "retweets": 42,
+        "likes": 5,
+        "retweets": 1,
         "replies": 1
       },
+      "category": "spam"
+    },
+    {
+      "id": 6647,
+      "text": "Just got liquidated on a $SOL long. This market is brutal.",
+      "username": "market_pulse_8603",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 149,
+        "retweets": 2,
+        "replies": 10
+      },
       "category": "organic"
     },
     {
-      "id": 686,
-      "text": "interesting",
-      "username": "market_pulse_8714",
+      "id": 1493,
+      "text": "Just tried Solana Pay at a coffee shop. The future is here.",
+      "username": "web3_builder_4049",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1411,16 +1102,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 60,
-        "retweets": 16,
-        "replies": 38
+        "likes": 433,
+        "retweets": 6,
+        "replies": 30
       },
-      "category": "noise"
+      "category": "organic"
     },
     {
-      "id": 6966,
-      "text": "MASSIVE: JPMorgan tokenizes $500M in assets on Solana blockchain.",
-      "username": "market_pulse_415",
+      "id": 3996,
+      "text": "LFG! Solana ecosystem is absolutely cooking right now.",
+      "username": "market_pulse_2280",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1430,16 +1121,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 15008,
-        "retweets": 3495,
-        "replies": 634
+        "likes": 421,
+        "retweets": 28,
+        "replies": 41
       },
-      "category": "outlier"
+      "category": "organic"
     },
     {
-      "id": 7983,
-      "text": "can someone explain solana",
-      "username": "whale_tracker_6435",
+      "id": 9253,
+      "text": "If you're not buying Solana right now, you'll regret it in 6 months. NFA.",
+      "username": "token_analyst_1931",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1449,16 +1140,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 439,
-        "retweets": 46,
-        "replies": 10
+        "likes": 318,
+        "retweets": 88,
+        "replies": 40
       },
-      "category": "noise"
+      "category": "organic"
     },
     {
-      "id": 2694,
-      "text": "The amount of rugs on Solana is embarrassing. Every token is a scam.",
-      "username": "token_analyst_9906",
+      "id": 9232,
+      "text": "Dev activity on Solana growing 40% QoQ. Build season is here.",
+      "username": "blockchain_dev_996",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1468,16 +1159,35 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 289,
-        "retweets": 22,
+        "likes": 476,
+        "retweets": 11,
+        "replies": 39
+      },
+      "category": "organic"
+    },
+    {
+      "id": 8094,
+      "text": "Solana's Firedancer client will be a game changer. Multi-client future.",
+      "username": "sol_maxi_2913",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 366,
+        "retweets": 57,
         "replies": 17
       },
       "category": "organic"
     },
     {
-      "id": 3851,
-      "text": "Just tried Solana Pay at a coffee shop. The future is here.",
-      "username": "sol_maxi_1433",
+      "id": 3,
+      "text": "The Solana phone was genius. Mobile-first crypto is the play.",
+      "username": "whale_tracker_4168",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1487,16 +1197,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 397,
-        "retweets": 35,
-        "replies": 26
+        "likes": 163,
+        "retweets": 55,
+        "replies": 48
       },
       "category": "organic"
     },
     {
-      "id": 3018,
-      "text": "Solana ecosystem is mostly memecoins. No real utility being built.",
-      "username": "sol_maxi_172",
+      "id": 5390,
+      "text": "Plunge in Solana DEX volume. Users are leaving.",
+      "username": "data_miner_7323",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1506,16 +1216,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 453,
-        "retweets": 6,
-        "replies": 34
+        "likes": 210,
+        "retweets": 61,
+        "replies": 50
       },
       "category": "organic"
     },
     {
-      "id": 4,
-      "text": "EMERGENCY: Critical vulnerability found in Solana runtime. Patch deploying.",
-      "username": "nft_collector_7057",
+      "id": 7001,
+      "text": "Waiting for Solana's next earnings... I mean, next ecosystem report.",
+      "username": "crypto_trader_4911",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1525,54 +1235,16 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 35492,
-        "retweets": 3963,
-        "replies": 857
-      },
-      "category": "outlier"
-    },
-    {
-      "id": 5569,
-      "text": "Solana upgrade going live next week. Let's see how it plays out.",
-      "username": "data_miner_6074",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 25,
-        "retweets": 57,
-        "replies": 25
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8101,
-      "text": "Solana breakout imminent. Chart pattern is textbook ascending triangle.",
-      "username": "sol_maxi_8405",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 185,
-        "retweets": 30,
+        "likes": 201,
+        "retweets": 77,
         "replies": 47
       },
       "category": "organic"
     },
     {
-      "id": 2278,
-      "text": "Solana validators just hit 2000+. Decentralization getting stronger.",
-      "username": "sol_maxi_5430",
+      "id": 6020,
+      "text": "$SOL",
+      "username": "hodler_7833",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1582,16 +1254,35 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 330,
-        "retweets": 99,
-        "replies": 11
+        "likes": 435,
+        "retweets": 25,
+        "replies": 40
+      },
+      "category": "noise"
+    },
+    {
+      "id": 4924,
+      "text": "$SOL stuck in a range. Need a catalyst for the next move.",
+      "username": "market_pulse_9839",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 393,
+        "retweets": 77,
+        "replies": 15
       },
       "category": "organic"
     },
     {
-      "id": 385,
-      "text": "Collapse of major Solana lending protocol drags TVL down further.",
-      "username": "solana_fan_8006",
+      "id": 4533,
+      "text": "Solana upgrade going live next week. Let's see how it plays out.",
+      "username": "crypto_trader_5906",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1601,9 +1292,326 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 347,
-        "retweets": 53,
-        "replies": 9
+        "likes": 342,
+        "retweets": 93,
+        "replies": 24
+      },
+      "category": "organic"
+    },
+    {
+      "id": 4430,
+      "text": "GIVEAWAY: Send 1 SOL get 10 SOL back! Official Solana event!",
+      "username": "moon_boy_222",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": true,
+      "spam_type": "promotional",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 2,
+        "retweets": 2,
+        "replies": 0
+      },
+      "category": "spam"
+    },
+    {
+      "id": 5215,
+      "text": "MY UNCLE WORKS AT SOLANA LABS AND HE SAID BIG ANNOUNCEMENT COMING!!! \ud83d\udcc8\ud83d\udc8e\ud83d\ude80",
+      "username": "10x_calls_5164",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.9,
+      "bot_reasons": [
+        "Excessive caps (75%)",
+        "New account (7 days)",
+        "Low followers (1)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "category": "bot"
+    },
+    {
+      "id": 3685,
+      "text": "gm",
+      "username": "defi_degen_646",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 27,
+        "retweets": 68,
+        "replies": 14
+      },
+      "category": "noise"
+    },
+    {
+      "id": 1327,
+      "text": "BREAKING: $SOL about to explode!! RT and follow for more alpha!! \ud83d\ude80\ud83d\udd25\ud83d\udcb0\ud83d\udcc8",
+      "username": "10x_calls_2176",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.5,
+      "bot_reasons": [
+        "New account (9 days)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": true,
+      "engagement": {
+        "likes": 0,
+        "retweets": 2,
+        "replies": 1
+      },
+      "category": "bot"
+    },
+    {
+      "id": 6758,
+      "text": "$SOL breakout imminent. Chart pattern is textbook ascending triangle.",
+      "username": "crypto_trader_5701",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 399,
+        "retweets": 65,
+        "replies": 7
+      },
+      "category": "organic"
+    },
+    {
+      "id": 7849,
+      "text": "URGENT: $SOL whale alert! 500M tokens moved! Pump incoming!!! \ud83d\udcb0\ud83d\udc8e",
+      "username": "10x_calls_7588",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.65,
+      "bot_reasons": [
+        "Exclamation spam (5x)",
+        "New account (9 days)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "category": "bot"
+    },
+    {
+      "id": 1984,
+      "text": "Follow me for FREE crypto signals! $SOL call was 10x! Next one loading...",
+      "username": "x2F8k_bot7792",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.5,
+      "bot_reasons": [
+        "New account (8 days)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      },
+      "category": "bot"
+    },
+    {
+      "id": 4691,
+      "text": "Just sold all my $SOL. Risk-reward doesn't make sense anymore.",
+      "username": "market_pulse_4302",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 305,
+        "retweets": 22,
+        "replies": 42
+      },
+      "category": "organic"
+    },
+    {
+      "id": 8889,
+      "text": "Another day, another protocol launching on Solana. Ecosystem is thriving.",
+      "username": "token_analyst_1979",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 112,
+        "retweets": 82,
+        "replies": 44
+      },
+      "category": "organic"
+    },
+    {
+      "id": 8168,
+      "text": "Solana vs Ethereum debate continues. Both have their strengths.",
+      "username": "crypto_trader_7521",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 490,
+        "retweets": 46,
+        "replies": 48
+      },
+      "category": "organic"
+    },
+    {
+      "id": 7738,
+      "text": "Elon Musk just invested in Solana! Claim bonus: fakelink.net",
+      "username": "signal_master5576",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.5,
+      "bot_reasons": [
+        "New account (4 days)"
+      ],
+      "is_spam": true,
+      "spam_type": "phishing",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "category": "spam"
+    },
+    {
+      "id": 492,
+      "text": "Solana's Firedancer client will be a game changer. Multi-client future.",
+      "username": "alpha_seeker_8517",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 493,
+        "retweets": 96,
+        "replies": 36
+      },
+      "category": "organic"
+    },
+    {
+      "id": 4248,
+      "text": "JUST IN: Major Solana DeFi protocol hacked for $200M. Funds at risk.",
+      "username": "defi_degen_739",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 16530,
+        "retweets": 5184,
+        "replies": 507
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 5085,
+      "text": "EMERGENCY: Critical vulnerability found in Solana runtime. Patch deploying.",
+      "username": "solana_fan_8946",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 32984,
+        "retweets": 1787,
+        "replies": 1334
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 6402,
+      "text": "JUST IN: Visa announces Solana integration for global payments.",
+      "username": "solana_fan_8949",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 2316,
+        "retweets": 9558,
+        "replies": 983
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 3658,
+      "text": "$SOL to $500 is not a meme. Fundamentals are stronger than ever.",
+      "username": "solana_fan_7702",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 340,
+        "retweets": 95,
+        "replies": 47
       },
       "category": "organic"
     },
@@ -1627,9 +1635,9 @@
       "category": "noise"
     },
     {
-      "id": 536,
-      "text": "Smart money is rotating into Solana. On-chain data doesn't lie.",
-      "username": "tech_explorer_6307",
+      "id": 6269,
+      "text": "BREAKING: SEC approves Solana ETF. This changes everything for $SOL.",
+      "username": "crypto_trader_2464",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1639,16 +1647,57 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 94,
-        "retweets": 53,
-        "replies": 9
+        "likes": 14240,
+        "retweets": 8255,
+        "replies": 971
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 4123,
+      "text": "Solana spam transactions clogging the network. UX is terrible.",
+      "username": "chain_watcher_9167",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 130,
+        "retweets": 71,
+        "replies": 12
       },
       "category": "organic"
     },
     {
-      "id": 8194,
-      "text": "anyone here?",
-      "username": "hodler_734",
+      "id": 2728,
+      "text": "GM GM GM! $SOL army rise up! We eating good today!!! \ud83d\ude80\ud83d\ude80\ud83d\ude80 \ud83d\udd25\ud83d\udd25",
+      "username": "crypto_gem_5164",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.65,
+      "bot_reasons": [
+        "Exclamation spam (5x)",
+        "New account (1 days)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 3,
+        "retweets": 2,
+        "replies": 1
+      },
+      "category": "bot"
+    },
+    {
+      "id": 7754,
+      "text": "Market is completely sideways. No conviction either way on $SOL.",
+      "username": "token_analyst_1313",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1658,35 +1707,225 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 370,
-        "retweets": 70,
+        "likes": 435,
+        "retweets": 9,
+        "replies": 5
+      },
+      "category": "organic"
+    },
+    {
+      "id": 6311,
+      "text": "Dead cat bounce on $SOL. Don't fall for it.",
+      "username": "chain_watcher_2595",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 265,
+        "retweets": 79,
+        "replies": 26
+      },
+      "category": "organic"
+    },
+    {
+      "id": 4647,
+      "text": "Flash loan opportunity: Borrow $SOL at 0% interest. Act NOW!",
+      "username": "free_money_5549",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": true,
+      "spam_type": "promotional",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1
+      },
+      "category": "spam"
+    },
+    {
+      "id": 9883,
+      "text": "$SOL",
+      "username": "solana_fan_9560",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 215,
+        "retweets": 88,
+        "replies": 18
+      },
+      "category": "noise"
+    },
+    {
+      "id": 9334,
+      "text": "Solana's Firedancer client will be a game changer. Multi-client future.",
+      "username": "alpha_seeker_9070",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 486,
+        "retweets": 96,
+        "replies": 34
+      },
+      "category": "organic"
+    },
+    {
+      "id": 7542,
+      "text": "$SOL is the most asymmetric bet in crypto right now.",
+      "username": "tech_explorer_1692",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 405,
+        "retweets": 87,
+        "replies": 0
+      },
+      "category": "organic"
+    },
+    {
+      "id": 5803,
+      "text": "WHALE ALERT: 50,000,000 $SOL transferred to Coinbase. Massive sell incoming?",
+      "username": "market_pulse_2990",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 27564,
+        "retweets": 4496,
+        "replies": 621
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 5787,
+      "text": "Crypto market overall feels undecided. $SOL following BTC closely.",
+      "username": "whale_tracker_4092",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 141,
+        "retweets": 0,
+        "replies": 22
+      },
+      "category": "organic"
+    },
+    {
+      "id": 8088,
+      "text": "Another day, another protocol launching on Solana. Ecosystem is thriving.",
+      "username": "sol_maxi_3434",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 440,
+        "retweets": 37,
+        "replies": 34
+      },
+      "category": "organic"
+    },
+    {
+      "id": 4536,
+      "text": "Claim your FREE $SOL airdrop here: scamlink.xyz/free-sol",
+      "username": "shill_army_528",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.3,
+      "bot_reasons": [],
+      "is_spam": true,
+      "spam_type": "phishing",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 4,
+        "retweets": 1,
+        "replies": 1
+      },
+      "category": "spam"
+    },
+    {
+      "id": 8133,
+      "text": "WHALE ALERT: 50,000,000 $SOL transferred to Coinbase. Massive sell incoming?",
+      "username": "chain_watcher_6724",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 26568,
+        "retweets": 5063,
+        "replies": 1993
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 2594,
+      "text": "is solana good",
+      "username": "blockchain_dev_621",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 323,
+        "retweets": 73,
         "replies": 12
       },
       "category": "noise"
     },
     {
-      "id": 7836,
-      "text": "BREAKING: $SOL about to explode!! RT and follow for more alpha!! \ud83d\udcc8\ud83d\udcc8",
-      "username": "pump_alert5963",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.3,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 5,
-        "retweets": 1,
-        "replies": 0
-      },
-      "category": "bot"
-    },
-    {
-      "id": 557,
-      "text": "Solana spam transactions clogging the network. UX is terrible.",
-      "username": "alpha_seeker_9835",
+      "id": 4283,
+      "text": "Smart money is rotating into $SOL. On-chain data doesn't lie.",
+      "username": "market_pulse_1235",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1696,75 +1935,38 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 424,
-        "retweets": 68,
-        "replies": 8
-      },
-      "category": "organic"
-    },
-    {
-      "id": 7804,
-      "text": "Solana staking rewards looking juicy. Passive income while we pump.",
-      "username": "tech_explorer_6107",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.75,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 44,
+        "likes": 315,
         "retweets": 100,
-        "replies": 13
+        "replies": 19
       },
       "category": "organic"
     },
     {
-      "id": 9671,
-      "text": "Solana hackathon projects are incredible this season. So much innovation.",
-      "username": "data_miner_3501",
+      "id": 5543,
+      "text": "$SOL $SOL $SOL TO THE MOON!!! BUY BUY BUY!!! \ud83d\ude80\ud83d\ude80\ud83d\udc8e",
+      "username": "shill_army_7712",
       "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 374,
-        "retweets": 19,
-        "replies": 50
-      },
-      "category": "organic"
-    },
-    {
-      "id": 7054,
-      "text": "Follow me for FREE crypto signals! $SOL call was 10x! Next one loading... \ud83d\udcc8\ud83d\ude80",
-      "username": "free_money_4810",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.45,
+      "is_bot": true,
+      "bot_confidence": 0.65,
       "bot_reasons": [
-        "Low followers (5)"
+        "Exclamation spam (6x)",
+        "New account (8 days)"
       ],
       "is_spam": false,
       "spam_type": "none",
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 2,
+        "likes": 5,
         "retweets": 2,
         "replies": 0
       },
       "category": "bot"
     },
     {
-      "id": 3903,
-      "text": "HODL $SOL. We're still early in this cycle.",
-      "username": "web3_builder_2413",
+      "id": 9638,
+      "text": "Sell your $SOL before it's too late. Bear market is coming.",
+      "username": "nft_collector_4316",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1774,16 +1976,37 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 283,
-        "retweets": 42,
-        "replies": 28
+        "likes": 351,
+        "retweets": 96,
+        "replies": 38
       },
       "category": "organic"
     },
     {
-      "id": 3487,
-      "text": "Collapse of major Solana lending protocol drags TVL down further.",
-      "username": "crypto_trader_7730",
+      "id": 5278,
+      "text": "BREAKING: $SOL ABOUT TO EXPLODE!! RT AND FOLLOW FOR MORE ALPHA!! \ud83d\udcc8\ud83d\udcc8\ud83d\udc8e\ud83d\udcc8\ud83d\udcc8",
+      "username": "shill_army_8808",
+      "sentiment": "neutral",
+      "is_bot": true,
+      "bot_confidence": 0.55,
+      "bot_reasons": [
+        "Excessive caps (69%)"
+      ],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.65,
+      "is_outlier": true,
+      "engagement": {
+        "likes": 1,
+        "retweets": 2,
+        "replies": 1
+      },
+      "category": "bot"
+    },
+    {
+      "id": 6618,
+      "text": "$SOL staking rewards looking juicy. Passive income while we pump.",
+      "username": "token_analyst_1434",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1793,73 +2016,96 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 65,
-        "retweets": 73,
+        "likes": 328,
+        "retweets": 37,
+        "replies": 41
+      },
+      "category": "organic"
+    },
+    {
+      "id": 5234,
+      "text": "Solana hackathon projects are incredible this season. So much innovation.",
+      "username": "market_pulse_4128",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 124,
+        "retweets": 95,
+        "replies": 33
+      },
+      "category": "organic"
+    },
+    {
+      "id": 5106,
+      "text": "JUST IN: Visa announces Solana integration for global payments.",
+      "username": "sol_maxi_7624",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 21105,
+        "retweets": 4766,
+        "replies": 576
+      },
+      "category": "outlier"
+    },
+    {
+      "id": 6017,
+      "text": "$SOL stuck in a range. Need a catalyst for the next move.",
+      "username": "nft_collector_6868",
+      "sentiment": "neutral",
+      "is_bot": false,
+      "bot_confidence": 0.0,
+      "bot_reasons": [],
+      "is_spam": false,
+      "spam_type": "none",
+      "quality_score": 0.5,
+      "is_outlier": false,
+      "engagement": {
+        "likes": 155,
+        "retweets": 58,
         "replies": 36
       },
       "category": "organic"
     },
     {
-      "id": 6917,
-      "text": "Pump.fun on Solana doing $2M/day in revenue. Ecosystem cash flow is real.",
-      "username": "solana_fan_9955",
+      "id": 5240,
+      "text": "I JUST MADE $50,000 TRADING $SOL IN ONE DAY! DM ME FOR MY STRATEGY!",
+      "username": "x2F8k_bot4366",
       "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
+      "is_bot": true,
+      "bot_confidence": 0.9,
+      "bot_reasons": [
+        "Excessive caps (66%)",
+        "New account (4 days)",
+        "Low followers (3)"
+      ],
       "is_spam": false,
-      "spam_type": "none",
+      "spam_type": "promotional",
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 368,
-        "retweets": 80,
-        "replies": 21
+        "likes": 5,
+        "retweets": 1,
+        "replies": 1
       },
-      "category": "organic"
+      "category": "bot"
     },
     {
-      "id": 5709,
-      "text": "$SOL to $500 is not a meme. Fundamentals are stronger than ever.",
-      "username": "token_analyst_8911",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 425,
-        "retweets": 67,
-        "replies": 24
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2221,
-      "text": "HODL #Solana. We're still early in this cycle.",
-      "username": "sol_maxi_8117",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 31,
-        "retweets": 5,
-        "replies": 34
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8677,
+      "id": 2466,
       "text": "anyone here?",
-      "username": "chain_watcher_2757",
+      "username": "sol_maxi_4670",
       "sentiment": "neutral",
       "is_bot": false,
       "bot_confidence": 0.0,
@@ -1869,125 +2115,11 @@
       "quality_score": 0.5,
       "is_outlier": false,
       "engagement": {
-        "likes": 61,
-        "retweets": 33,
-        "replies": 21
+        "likes": 258,
+        "retweets": 9,
+        "replies": 0
       },
       "category": "noise"
-    },
-    {
-      "id": 30,
-      "text": "Collapse of major Solana lending protocol drags TVL down further.",
-      "username": "hodler_5769",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 198,
-        "retweets": 15,
-        "replies": 48
-      },
-      "category": "organic"
-    },
-    {
-      "id": 8255,
-      "text": "The Solana phone was genius. Mobile-first crypto is the play.",
-      "username": "blockchain_dev_3632",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 448,
-        "retweets": 82,
-        "replies": 48
-      },
-      "category": "organic"
-    },
-    {
-      "id": 5665,
-      "text": "Crash incoming. $SOL daily RSI showing severe bearish divergence.",
-      "username": "token_analyst_2673",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 7,
-        "retweets": 88,
-        "replies": 36
-      },
-      "category": "organic"
-    },
-    {
-      "id": 1527,
-      "text": "$SOL consolidating at current levels. Waiting for a clear direction.",
-      "username": "tech_explorer_5918",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 422,
-        "retweets": 95,
-        "replies": 32
-      },
-      "category": "organic"
-    },
-    {
-      "id": 4925,
-      "text": "Pump.fun on Solana doing $2M/day in revenue. Ecosystem cash flow is real.",
-      "username": "data_miner_4397",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 288,
-        "retweets": 96,
-        "replies": 15
-      },
-      "category": "organic"
-    },
-    {
-      "id": 2250,
-      "text": "Volume declining on $SOL pairs. Uncertainty in the market.",
-      "username": "hodler_4538",
-      "sentiment": "neutral",
-      "is_bot": false,
-      "bot_confidence": 0.0,
-      "bot_reasons": [],
-      "is_spam": false,
-      "spam_type": "none",
-      "quality_score": 0.5,
-      "is_outlier": false,
-      "engagement": {
-        "likes": 280,
-        "retweets": 8,
-        "replies": 23
-      },
-      "category": "organic"
     }
   ]
 }

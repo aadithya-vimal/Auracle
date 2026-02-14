@@ -677,9 +677,9 @@ def main():
 
         while True:
             oracle.run_analysis_cycle()
-            print(f"\n  Waiting 30 seconds...")
-            print(f"  Next cycle: {time.strftime('%H:%M:%S', time.localtime(time.time() + 30))}")
-            time.sleep(30)
+            print(f"\n  Waiting 6 seconds...")
+            print(f"  Next cycle: {time.strftime('%H:%M:%S', time.localtime(time.time() + 6))}")
+            time.sleep(6)
 
     except KeyboardInterrupt:
         print(f"\n  Oracle stopped. Cycles completed: {oracle.cycle_count}")
